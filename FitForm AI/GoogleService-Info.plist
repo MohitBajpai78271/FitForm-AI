@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>979895248649-2rpgqccqrve49ds62hqq7cc3ssplb2ji.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.979895248649-2rpgqccqrve49ds62hqq7cc3ssplb2ji</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDPCf-_KnIBekE7ihMqVcvXD3dxcAWCNwc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>979895248649</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.MohitBajpai.FitFormFirebase</string>
+	<key>PROJECT_ID</key>
+	<string>fitformai-95128</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fitformai-95128.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:979895248649:ios:7300eac644dfdd76e895d8</string>
+</dict>
+</plist>

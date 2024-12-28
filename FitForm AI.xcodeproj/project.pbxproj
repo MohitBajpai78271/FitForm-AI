@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048790722D1C05B00007322C /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 048790712D1C05B00007322C /* GoogleSignIn */; };
+		048790742D1C05B00007322C /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 048790732D1C05B00007322C /* GoogleSignInSwift */; };
+		048790772D1C06E80007322C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 048790762D1C06E80007322C /* FirebaseAuth */; };
+		048790792D1C06E80007322C /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 048790782D1C06E80007322C /* FirebaseCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048790222D1BF5AB0007322C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048790042D1BF5A80007322C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0487900B2D1BF5A80007322C;
+			remoteInfo = "FitForm AI";
+		};
+		0487902C2D1BF5AB0007322C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048790042D1BF5A80007322C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0487900B2D1BF5A80007322C;
+			remoteInfo = "FitForm AI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0487900C2D1BF5A80007322C /* FitForm AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitForm AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048790212D1BF5AB0007322C /* FitForm AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitForm AITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0487902B2D1BF5AB0007322C /* FitForm AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitForm AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0487900E2D1BF5A80007322C /* FitForm AI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "FitForm AI";
+			sourceTree = "<group>";
+		};
+		048790242D1BF5AB0007322C /* FitForm AITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "FitForm AITests";
+			sourceTree = "<group>";
+		};
+		0487902E2D1BF5AB0007322C /* FitForm AIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "FitForm AIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048790092D1BF5A80007322C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048790722D1C05B00007322C /* GoogleSignIn in Frameworks */,
+				048790772D1C06E80007322C /* FirebaseAuth in Frameworks */,
+				048790792D1C06E80007322C /* FirebaseCore in Frameworks */,
+				048790742D1C05B00007322C /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0487901E2D1BF5AB0007322C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048790282D1BF5AB0007322C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048790032D1BF5A80007322C = {
+			isa = PBXGroup;
+			children = (
+				0487900E2D1BF5A80007322C /* FitForm AI */,
+				048790242D1BF5AB0007322C /* FitForm AITests */,
+				0487902E2D1BF5AB0007322C /* FitForm AIUITests */,
+				048790752D1C06E80007322C /* Frameworks */,
+				0487900D2D1BF5A80007322C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0487900D2D1BF5A80007322C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0487900C2D1BF5A80007322C /* FitForm AI.app */,
+				048790212D1BF5AB0007322C /* FitForm AITests.xctest */,
+				0487902B2D1BF5AB0007322C /* FitForm AIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048790752D1C06E80007322C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0487900B2D1BF5A80007322C /* FitForm AI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048790352D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "FitForm AI" */;
+			buildPhases = (
+				048790082D1BF5A80007322C /* Sources */,
+				048790092D1BF5A80007322C /* Frameworks */,
+				0487900A2D1BF5A80007322C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0487900E2D1BF5A80007322C /* FitForm AI */,
+			);
+			name = "FitForm AI";
+			packageProductDependencies = (
+				048790712D1C05B00007322C /* GoogleSignIn */,
+				048790732D1C05B00007322C /* GoogleSignInSwift */,
+				048790762D1C06E80007322C /* FirebaseAuth */,
+				048790782D1C06E80007322C /* FirebaseCore */,
+			);
+			productName = "FitForm AI";
+			productReference = 0487900C2D1BF5A80007322C /* FitForm AI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048790202D1BF5AB0007322C /* FitForm AITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048790382D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "FitForm AITests" */;
+			buildPhases = (
+				0487901D2D1BF5AB0007322C /* Sources */,
+				0487901E2D1BF5AB0007322C /* Frameworks */,
+				0487901F2D1BF5AB0007322C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048790232D1BF5AB0007322C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				048790242D1BF5AB0007322C /* FitForm AITests */,
+			);
+			name = "FitForm AITests";
+			packageProductDependencies = (
+			);
+			productName = "FitForm AITests";
+			productReference = 048790212D1BF5AB0007322C /* FitForm AITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0487902A2D1BF5AB0007322C /* FitForm AIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0487903B2D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "FitForm AIUITests" */;
+			buildPhases = (
+				048790272D1BF5AB0007322C /* Sources */,
+				048790282D1BF5AB0007322C /* Frameworks */,
+				048790292D1BF5AB0007322C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0487902D2D1BF5AB0007322C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0487902E2D1BF5AB0007322C /* FitForm AIUITests */,
+			);
+			name = "FitForm AIUITests";
+			packageProductDependencies = (
+			);
+			productName = "FitForm AIUITests";
+			productReference = 0487902B2D1BF5AB0007322C /* FitForm AIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048790042D1BF5A80007322C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					0487900B2D1BF5A80007322C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					048790202D1BF5AB0007322C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0487900B2D1BF5A80007322C;
+					};
+					0487902A2D1BF5AB0007322C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0487900B2D1BF5A80007322C;
+					};
+				};
+			};
+			buildConfigurationList = 048790072D1BF5A80007322C /* Build configuration list for PBXProject "FitForm AI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048790032D1BF5A80007322C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				048790682D1C01CD0007322C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				048790702D1C05B00007322C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0487900D2D1BF5A80007322C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0487900B2D1BF5A80007322C /* FitForm AI */,
+				048790202D1BF5AB0007322C /* FitForm AITests */,
+				0487902A2D1BF5AB0007322C /* FitForm AIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0487900A2D1BF5A80007322C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0487901F2D1BF5AB0007322C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048790292D1BF5AB0007322C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048790082D1BF5A80007322C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0487901D2D1BF5AB0007322C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048790272D1BF5AB0007322C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048790232D1BF5AB0007322C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0487900B2D1BF5A80007322C /* FitForm AI */;
+			targetProxy = 048790222D1BF5AB0007322C /* PBXContainerItemProxy */;
+		};
+		0487902D2D1BF5AB0007322C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0487900B2D1BF5A80007322C /* FitForm AI */;
+			targetProxy = 0487902C2D1BF5AB0007322C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		048790332D1BF5AB0007322C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		048790342D1BF5AB0007322C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048790362D1BF5AB0007322C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitForm AI/Preview Content\"";
+				DEVELOPMENT_TEAM = N82KVBB4WX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FitForm-AI-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Pleaase allow access to enjoy our App";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow access to enjoy our App";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MohitBajpai.FitFormFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		048790372D1BF5AB0007322C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitForm AI/Preview Content\"";
+				DEVELOPMENT_TEAM = N82KVBB4WX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FitForm-AI-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Pleaase allow access to enjoy our App";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow access to enjoy our App";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MohitBajpai.FitFormFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		048790392D1BF5AB0007322C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MohitBajpai.FitForm-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitForm AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitForm AI";
+			};
+			name = Debug;
+		};
+		0487903A2D1BF5AB0007322C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MohitBajpai.FitForm-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitForm AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitForm AI";
+			};
+			name = Release;
+		};
+		0487903C2D1BF5AB0007322C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MohitBajpai.FitForm-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FitForm AI";
+			};
+			name = Debug;
+		};
+		0487903D2D1BF5AB0007322C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MohitBajpai.FitForm-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FitForm AI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048790072D1BF5A80007322C /* Build configuration list for PBXProject "FitForm AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048790332D1BF5AB0007322C /* Debug */,
+				048790342D1BF5AB0007322C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048790352D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "FitForm AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048790362D1BF5AB0007322C /* Debug */,
+				048790372D1BF5AB0007322C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048790382D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "FitForm AITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048790392D1BF5AB0007322C /* Debug */,
+				0487903A2D1BF5AB0007322C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0487903B2D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "FitForm AIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0487903C2D1BF5AB0007322C /* Debug */,
+				0487903D2D1BF5AB0007322C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		048790682D1C01CD0007322C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+		048790702D1C05B00007322C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		048790712D1C05B00007322C /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 048790702D1C05B00007322C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		048790732D1C05B00007322C /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 048790702D1C05B00007322C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		048790762D1C06E80007322C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 048790682D1C01CD0007322C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		048790782D1C06E80007322C /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 048790682D1C01CD0007322C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 048790042D1BF5A80007322C /* Project object */;
+}
