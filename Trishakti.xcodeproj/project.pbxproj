@@ -31,9 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0487900C2D1BF5A80007322C /* FitForm AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitForm AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		048790212D1BF5AB0007322C /* FitForm AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitForm AITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0487902B2D1BF5AB0007322C /* FitForm AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitForm AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0487900C2D1BF5A80007322C /* Trishakti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trishakti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048790212D1BF5AB0007322C /* TrishaktiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrishaktiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0487902B2D1BF5AB0007322C /* TrishaktiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrishaktiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -97,9 +97,9 @@
 		0487900D2D1BF5A80007322C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0487900C2D1BF5A80007322C /* FitForm AI.app */,
-				048790212D1BF5AB0007322C /* FitForm AITests.xctest */,
-				0487902B2D1BF5AB0007322C /* FitForm AIUITests.xctest */,
+				0487900C2D1BF5A80007322C /* Trishakti.app */,
+				048790212D1BF5AB0007322C /* TrishaktiTests.xctest */,
+				0487902B2D1BF5AB0007322C /* TrishaktiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,9 +114,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0487900B2D1BF5A80007322C /* FitForm AI */ = {
+		0487900B2D1BF5A80007322C /* Trishakti */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 048790352D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "FitForm AI" */;
+			buildConfigurationList = 048790352D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "Trishakti" */;
 			buildPhases = (
 				048790082D1BF5A80007322C /* Sources */,
 				048790092D1BF5A80007322C /* Frameworks */,
@@ -129,7 +129,7 @@
 			fileSystemSynchronizedGroups = (
 				0487900E2D1BF5A80007322C /* FitForm AI */,
 			);
-			name = "FitForm AI";
+			name = Trishakti;
 			packageProductDependencies = (
 				048790712D1C05B00007322C /* GoogleSignIn */,
 				048790732D1C05B00007322C /* GoogleSignInSwift */,
@@ -137,12 +137,12 @@
 				048790782D1C06E80007322C /* FirebaseCore */,
 			);
 			productName = "FitForm AI";
-			productReference = 0487900C2D1BF5A80007322C /* FitForm AI.app */;
+			productReference = 0487900C2D1BF5A80007322C /* Trishakti.app */;
 			productType = "com.apple.product-type.application";
 		};
-		048790202D1BF5AB0007322C /* FitForm AITests */ = {
+		048790202D1BF5AB0007322C /* TrishaktiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 048790382D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "FitForm AITests" */;
+			buildConfigurationList = 048790382D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "TrishaktiTests" */;
 			buildPhases = (
 				0487901D2D1BF5AB0007322C /* Sources */,
 				0487901E2D1BF5AB0007322C /* Frameworks */,
@@ -156,16 +156,16 @@
 			fileSystemSynchronizedGroups = (
 				048790242D1BF5AB0007322C /* FitForm AITests */,
 			);
-			name = "FitForm AITests";
+			name = TrishaktiTests;
 			packageProductDependencies = (
 			);
 			productName = "FitForm AITests";
-			productReference = 048790212D1BF5AB0007322C /* FitForm AITests.xctest */;
+			productReference = 048790212D1BF5AB0007322C /* TrishaktiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0487902A2D1BF5AB0007322C /* FitForm AIUITests */ = {
+		0487902A2D1BF5AB0007322C /* TrishaktiUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0487903B2D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "FitForm AIUITests" */;
+			buildConfigurationList = 0487903B2D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "TrishaktiUITests" */;
 			buildPhases = (
 				048790272D1BF5AB0007322C /* Sources */,
 				048790282D1BF5AB0007322C /* Frameworks */,
@@ -179,11 +179,11 @@
 			fileSystemSynchronizedGroups = (
 				0487902E2D1BF5AB0007322C /* FitForm AIUITests */,
 			);
-			name = "FitForm AIUITests";
+			name = TrishaktiUITests;
 			packageProductDependencies = (
 			);
 			productName = "FitForm AIUITests";
-			productReference = 0487902B2D1BF5AB0007322C /* FitForm AIUITests.xctest */;
+			productReference = 0487902B2D1BF5AB0007322C /* TrishaktiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 048790072D1BF5A80007322C /* Build configuration list for PBXProject "FitForm AI" */;
+			buildConfigurationList = 048790072D1BF5A80007322C /* Build configuration list for PBXProject "Trishakti" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -227,9 +227,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0487900B2D1BF5A80007322C /* FitForm AI */,
-				048790202D1BF5AB0007322C /* FitForm AITests */,
-				0487902A2D1BF5AB0007322C /* FitForm AIUITests */,
+				0487900B2D1BF5A80007322C /* Trishakti */,
+				048790202D1BF5AB0007322C /* TrishaktiTests */,
+				0487902A2D1BF5AB0007322C /* TrishaktiUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		048790232D1BF5AB0007322C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0487900B2D1BF5A80007322C /* FitForm AI */;
+			target = 0487900B2D1BF5A80007322C /* Trishakti */;
 			targetProxy = 048790222D1BF5AB0007322C /* PBXContainerItemProxy */;
 		};
 		0487902D2D1BF5AB0007322C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0487900B2D1BF5A80007322C /* FitForm AI */;
+			target = 0487900B2D1BF5A80007322C /* Trishakti */;
 			targetProxy = 0487902C2D1BF5AB0007322C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -499,7 +499,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitForm AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitForm AI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trishakti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trishakti";
 			};
 			name = Debug;
 		};
@@ -517,7 +517,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitForm AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitForm AI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trishakti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trishakti";
 			};
 			name = Release;
 		};
@@ -556,7 +556,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		048790072D1BF5A80007322C /* Build configuration list for PBXProject "FitForm AI" */ = {
+		048790072D1BF5A80007322C /* Build configuration list for PBXProject "Trishakti" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				048790332D1BF5AB0007322C /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		048790352D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "FitForm AI" */ = {
+		048790352D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "Trishakti" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				048790362D1BF5AB0007322C /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		048790382D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "FitForm AITests" */ = {
+		048790382D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "TrishaktiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				048790392D1BF5AB0007322C /* Debug */,
@@ -583,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0487903B2D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "FitForm AIUITests" */ = {
+		0487903B2D1BF5AB0007322C /* Build configuration list for PBXNativeTarget "TrishaktiUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0487903C2D1BF5AB0007322C /* Debug */,
