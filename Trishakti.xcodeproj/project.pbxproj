@@ -37,9 +37,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0487900E2D1BF5A80007322C /* FitForm AI */ = {
+		0487900E2D1BF5A80007322C /* Trishakti */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "FitForm AI";
+			path = Trishakti;
 			sourceTree = "<group>";
 		};
 		048790242D1BF5AB0007322C /* FitForm AITests */ = {
@@ -86,7 +86,7 @@
 		048790032D1BF5A80007322C = {
 			isa = PBXGroup;
 			children = (
-				0487900E2D1BF5A80007322C /* FitForm AI */,
+				0487900E2D1BF5A80007322C /* Trishakti */,
 				048790242D1BF5AB0007322C /* FitForm AITests */,
 				0487902E2D1BF5AB0007322C /* FitForm AIUITests */,
 				048790752D1C06E80007322C /* Frameworks */,
@@ -127,7 +127,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				0487900E2D1BF5A80007322C /* FitForm AI */,
+				0487900E2D1BF5A80007322C /* Trishakti */,
 			);
 			name = Trishakti;
 			packageProductDependencies = (
