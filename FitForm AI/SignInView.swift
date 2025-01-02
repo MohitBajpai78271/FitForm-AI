@@ -28,9 +28,9 @@ struct SignInView: View {
                 VStack{
                     Button(action: {
                         if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
-                                           let window = windowScene.windows.first(where: { $0.isKeyWindow }),
+                           let window = windowScene.windows.first(where: { $0.isKeyWindow }),
                            let rootViewController = window.rootViewController {
-                            authManager.signInWithGoogle(presentingViewController: rootViewController)
+                           authManager.signInWithGoogle(presentingViewController: rootViewController)
                         }
                     }){
                         Text("SignIn with Google")
@@ -43,9 +43,8 @@ struct SignInView: View {
                                     .foregroundColor(.primary)
                                     .frame(width: 300)
                             }
-                            
-                            
                     }
+                    
                     Button{
                         
                     }label: {

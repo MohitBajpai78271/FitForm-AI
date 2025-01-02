@@ -31,16 +31,11 @@ struct FitForm_AIApp: App {
     var body: some Scene { 
         WindowGroup {
             if authManager.isSignedIn {
-                         ContentView()
+                  MapView()
                      } else {
                          SignInView()
                              .environmentObject(authManager)
-                     }
+                }
         }
     }
 }
-
-//            ContentView()
-//            SignInView()
-//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-

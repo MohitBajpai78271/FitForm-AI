@@ -4,7 +4,7 @@ import GoogleSignIn
 import Firebase
 
 class AuthManager: ObservableObject {
-    static let shared = AuthManager()
+     static let shared = AuthManager()
     
      @Published var isSignedIn = false
      @Published var userName: String = ""
@@ -25,7 +25,7 @@ class AuthManager: ObservableObject {
      }
      
     func signInWithGoogle(presentingViewController: UIViewController) {
-       let clientID =  "979895248649-2rpgqccqrve49ds62hqq7cc3ssplb2ji.apps.googleusercontent.com"
+        let clientID =  "979895248649-2rpgqccqrve49ds62hqq7cc3ssplb2ji.apps.googleusercontent.com"
         let config = GIDConfiguration(clientID: clientID)
         GIDSignIn.sharedInstance.configuration = config
         
@@ -49,14 +49,14 @@ class AuthManager: ObservableObject {
                     return
                 }
                 guard let self = self else { return }
-                               self.isSignedIn = true
-                               self.userName = authResult?.user.displayName ?? "No Name"
-                               self.email = authResult?.user.email ?? "No Email"
-                               self.profilePhotoURL = authResult?.user.photoURL
-                               self.uid = authResult?.user.uid ?? ""
+                        self.isSignedIn = true
+                        self.userName = authResult?.user.displayName ?? "No Name"
+                        self.email = authResult?.user.email ?? "No Email"
+                        self.profilePhotoURL = authResult?.user.photoURL
+                        self.uid = authResult?.user.uid ?? ""
                                
-                               print("Successfully signed in with Firebase")
-                               print("Name: \(self.userName), Email: \(self.email), UID: \(self.uid), Photo URL: \(self.profilePhotoURL?.absoluteString ?? "No URL")")
+                        print("Successfully signed in with Firebase")
+                        print("Name: \(self.userName), Email: \(self.email), UID: \(self.uid), Photo URL: \(self.profilePhotoURL?.absoluteString ?? "No URL")")
             }
         }
 
