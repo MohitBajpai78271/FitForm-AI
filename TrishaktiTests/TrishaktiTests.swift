@@ -6,7 +6,7 @@
 //
 
 import Testing
-@testable import FitForm_AI
+@testable import Trishakti
 
 struct FitForm_AITests {
 

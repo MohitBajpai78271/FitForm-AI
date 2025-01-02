@@ -42,14 +42,14 @@
 			path = Trishakti;
 			sourceTree = "<group>";
 		};
-		048790242D1BF5AB0007322C /* FitForm AITests */ = {
+		048790242D1BF5AB0007322C /* TrishaktiTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "FitForm AITests";
+			path = TrishaktiTests;
 			sourceTree = "<group>";
 		};
-		0487902E2D1BF5AB0007322C /* FitForm AIUITests */ = {
+		0487902E2D1BF5AB0007322C /* TrishaktiUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "FitForm AIUITests";
+			path = TrishaktiUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -87,8 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				0487900E2D1BF5A80007322C /* Trishakti */,
-				048790242D1BF5AB0007322C /* FitForm AITests */,
-				0487902E2D1BF5AB0007322C /* FitForm AIUITests */,
+				048790242D1BF5AB0007322C /* TrishaktiTests */,
+				0487902E2D1BF5AB0007322C /* TrishaktiUITests */,
 				048790752D1C06E80007322C /* Frameworks */,
 				0487900D2D1BF5A80007322C /* Products */,
 			);
@@ -154,7 +154,7 @@
 				048790232D1BF5AB0007322C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				048790242D1BF5AB0007322C /* FitForm AITests */,
+				048790242D1BF5AB0007322C /* TrishaktiTests */,
 			);
 			name = TrishaktiTests;
 			packageProductDependencies = (
@@ -177,7 +177,7 @@
 				0487902D2D1BF5AB0007322C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				0487902E2D1BF5AB0007322C /* FitForm AIUITests */,
+				0487902E2D1BF5AB0007322C /* TrishaktiUITests */,
 			);
 			name = TrishaktiUITests;
 			packageProductDependencies = (
@@ -422,11 +422,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FitForm AI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Trishakti/Preview Content\"";
 				DEVELOPMENT_TEAM = N82KVBB4WX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "FitForm-AI-Info.plist";
+				INFOPLIST_FILE = "Trishakti-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Trishakti;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Pleaase allow access to enjoy our App";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow access to enjoy our App";
@@ -457,11 +457,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FitForm AI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Trishakti/Preview Content\"";
 				DEVELOPMENT_TEAM = N82KVBB4WX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "FitForm-AI-Info.plist";
+				INFOPLIST_FILE = "Trishakti-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Trishakti;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Pleaase allow access to enjoy our App";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow access to enjoy our App";
